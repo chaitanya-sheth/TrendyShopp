@@ -862,7 +862,7 @@ margin-left: 5px;
     width: 54vw !important;
   }
   .emptyCartText{
-    font-size: 0.83rem;
+    font-size: 0.83rem !important;
   }
   .emptyCartRightSection{
     padding:5px !important;
