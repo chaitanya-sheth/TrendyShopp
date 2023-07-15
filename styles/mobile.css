@@ -406,6 +406,9 @@
   aspect-ratio: 16/8;
   object-fit: cover;
 } */
+.browseMoreCategoryButton{
+  text-decoration: none;
+}
 .customButtonOfBanner{
   padding: 10px;
   font-family: "Oswald", sans-serif;
