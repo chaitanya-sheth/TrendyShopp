@@ -29,7 +29,7 @@ const Nav = () => {
         <div className="logoBox d_flex align_items_center">
           <Link href="/">
             <img
-              src="/logo2.png"
+              src="/infoware-logo.webp"
               className="d_flex align_items_center logo"></img>
             
           </Link>
