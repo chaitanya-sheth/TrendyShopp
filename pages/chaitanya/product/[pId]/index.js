@@ -13,8 +13,8 @@ const findOfferById = (id) => {
 };
 
 const ProductId = ({params}) => {
-  const [addedProducts, setAddedProducts] = useState([]);
   const dispatch = useDispatch();
+  const [addedProducts, setAddedProducts] = useState([]);
   const data = useSelector((state) => state.productData);
   const { pId } = params;
   const formattedPId = pId.toString().padStart(3, '0');
