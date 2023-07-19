@@ -216,8 +216,8 @@
   z-index: 20;
   height: 50px;
   bottom: 0px;
-  padding-left: 1.25rem /* 20px */;
-  padding-right: 1.25rem /* 20px */;
+  /* padding-left: 1.25rem; */
+  /* padding-right: 1.25rem; */
   /* padding-top: 0.5rem ; */
   padding-top: 0;
   border-top: 2px solid rgba(128, 128, 128, 0.585);
@@ -227,7 +227,8 @@
   display: flex;
 }
 .bottomnavbarIcons{
-  padding: 0 7vw;
+  /* padding: 0 7vw; */
+  width: 100vw;
 }
 .bottomTagNames {
   color:black;
@@ -246,7 +247,7 @@
   color: white;
   text-align: center;
   margin-top: -6px;
-  margin-left: -1.5vw;
+  margin-left: -11.5vw;
 }
 .active{
   background-color: #0000ff42;
