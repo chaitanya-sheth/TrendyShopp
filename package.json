@@ -1,5 +1,5 @@
 {
-  "name": "generic-intern",
+  "name": "generic_website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
+    "sass": "^1.63.4",
     "@reduxjs/toolkit": "^1.9.5",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
