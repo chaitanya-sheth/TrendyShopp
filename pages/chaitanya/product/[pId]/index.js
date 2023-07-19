@@ -17,20 +17,18 @@ const ProductId = ({params}) => {
   const [addedProducts, setAddedProducts] = useState([]);
   const { pId } = params;
   const formattedPId = pId.toString().padStart(3, '0');
-  const offer = findOfferById(formattedPId);
-  // const data = useSelector((state) => state.productData);
+  const offer = findOfferById(formattedPId);  
+
+  useEffect(() => {
+    dispatch(productList());
+  }, []);
+
   if (!offer) {
     return <h1>Product not found</h1>;
   }
 
   const { img, name, description, price, discounted_price } = offer;
- 
-  // console.warn("data in main component from saga ", data);
 
-  useEffect(() => {
-    dispatch(productList());
-  }, []);
-  
   const handleAddToBag = (item) => {
     dispatch(addToCart(item));
     setAddedProducts((prevAddedProducts) => [...prevAddedProducts, item.id]);
