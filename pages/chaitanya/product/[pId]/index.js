@@ -15,10 +15,9 @@ const findOfferById = (id) => {
 const ProductId = ({params}) => {
   const dispatch = useDispatch();
   const [addedProducts, setAddedProducts] = useState([]);
-  
   const { pId } = params;
   const formattedPId = pId.toString().padStart(3, '0');
-  const offer = findOfferById(formattedPId);  
+  const offer = findOfferById(formattedPId);
   // const data = useSelector((state) => state.productData);
   if (!offer) {
     return <h1>Product not found</h1>;
