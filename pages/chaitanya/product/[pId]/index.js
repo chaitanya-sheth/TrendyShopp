@@ -13,6 +13,9 @@ const findOfferById = (id) => {
 };
 
 const ProductId = ({params}) => {
+  const [addedProducts, setAddedProducts] = useState([]);
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.productData);
   const { pId } = params;
   const formattedPId = pId.toString().padStart(3, '0');
   const offer = findOfferById(formattedPId);  
@@ -22,16 +25,13 @@ const ProductId = ({params}) => {
   }
 
   const { img, name, description, price, discounted_price } = offer;
-    const dispatch = useDispatch();
-  const data = useSelector((state) => state.productData);
-  console.warn("data in main component from saga ", data);
+   
+  // console.warn("data in main component from saga ", data);
 
   useEffect(() => {
     dispatch(productList());
   }, []);
   
-  const [addedProducts, setAddedProducts] = useState([]);
-
   const handleAddToBag = (item) => {
     dispatch(addToCart(item));
     setAddedProducts((prevAddedProducts) => [...prevAddedProducts, item.id]);
