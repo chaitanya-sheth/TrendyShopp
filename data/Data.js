@@ -6,7 +6,7 @@ export const Data = [
     name: "Tressemme Pro Protect Sulphate Free Shampoo 340ml",
     price: 500,
     category: "haircare",
-    url: "/chaitanya/product/1",
+    url: "/product/1",
   },
   {
     id: "002",
@@ -14,7 +14,7 @@ export const Data = [
     name: "Vaseline Intensive Care Deep Moisture Body Lotion 400ml",
     price: 300,
     category: "skincare",
-    url: "/chaitanya/product/2",
+    url: "/product/2",
   },
   {
     id: "003",
@@ -22,7 +22,7 @@ export const Data = [
     img: "/card3.webp",
     price: 408,
     category: "laundary-dishwash",
-    url: "/chaitanya/product/3",
+    url: "/product/3",
   },
   {
     id: "004",
@@ -30,7 +30,7 @@ export const Data = [
     img: "/card4.jpg",
     price: 400,
     category: "hand-bodywash",
-    url: "/chaitanya/product/4",
+    url: "/product/4",
   },
 
   {
@@ -39,7 +39,7 @@ export const Data = [
     name: "Kissan Mixed Fruit Jam   500g",
     price: 170,
     category: "food-and-beverages",
-    url: "/chaitanya/product/5",
+    url: "/product/5",
   },
   {
     id: "006",
@@ -47,7 +47,7 @@ export const Data = [
     name: "Indulekha Bringha Oil, Reduces Hair Fall And Grows New Hair,100% Ayurvedic Call",
     price: 300,
     category: "haircare",
-    url: "/chaitanya/product/6",
+    url: "/product/6",
   },
   {
     id: "007",
@@ -55,7 +55,7 @@ export const Data = [
     name: "Vaseline Intensive Care Cocoa Glow Body Lotion 400ml",
     price: 300,
     category: "skincare",
-    url: "/chaitanya/product/7",
+    url: "/product/7",
   },
   {
     id: "008",
@@ -63,7 +63,7 @@ export const Data = [
     img: "/card8.webp",
     price: 408,
     category: "laundary-dishwash",
-    url: "/chaitanya/product/8",
+    url: "/product/8",
   },
   {
     id: "009",
@@ -71,7 +71,7 @@ export const Data = [
     img: "/card9.webp",
     price: 150,
     category: "hand-bodywash",
-    url: "/chaitanya/product/9",
+    url: "/product/9",
   },
   {
     id: "010",
@@ -79,7 +79,7 @@ export const Data = [
     name: "Bru Beaten Coffee Mix   500g",
     price: 170,
     category: "food-and-beverages",
-    url: "/chaitanya/product/10",
+    url: "/product/10",
   },
   {
     id: "011",
@@ -88,7 +88,7 @@ export const Data = [
     price: 550,
     discounted_price: 440,
     category: "haircare",
-    url: "/chaitanya/product/11",
+    url: "/product/11",
   },
   {
     id: "012",
@@ -97,7 +97,7 @@ export const Data = [
     price: 300,
     discounted_price: 270,
     category: "skincare",
-    url: "/chaitanya/product/12",
+    url: "/product/12",
   },
   {
     id: "013",
@@ -106,7 +106,7 @@ export const Data = [
     price: 400,
     discounted_price: 340,
     category: "laundary-dishwash",
-    url: "/chaitanya/product/13",
+    url: "/product/13",
   },
   {
     id: "014",
@@ -115,7 +115,7 @@ export const Data = [
     price: 400,
     discounted_price: 360,
     category: "hand-bodywash",
-    url: "/chaitanya/product/14",
+    url: "/product/14",
   },
   {
     id: "015",
@@ -124,7 +124,7 @@ export const Data = [
     price: 170,
     discounted_price: 153,
     category: "food-and-beverages",
-    url: "/chaitanya/product/15",
+    url: "/product/15",
   },
   {
     id: "016",
@@ -133,7 +133,7 @@ export const Data = [
     price: 380,
     discounted_price: 304,
     category: "haircare",
-    url: "/chaitanya/product/16",
+    url: "/product/16",
   },
   {
     id: "017",
@@ -142,7 +142,7 @@ export const Data = [
     price: 250,
     discounted_price: 225,
     category: "skincare",
-    url: "/chaitanya/product/17",
+    url: "/product/17",
   },
   {
     id: "018",
@@ -151,7 +151,7 @@ export const Data = [
     price: 480,
     discounted_price: 432,
     category: "laundary-dishwash",
-    url: "/chaitanya/product/18",
+    url: "/product/18",
   },
   {
     id: "019",
@@ -160,7 +160,7 @@ export const Data = [
     price: 370,
     discounted_price: 333,
     category: "hand-bodywash",
-    url: "/chaitanya/product/19",
+    url: "/product/19",
   },
   {
     id: "020",
@@ -169,7 +169,7 @@ export const Data = [
     price: 50,
     discounted_price: 45,
     category: "food-and-beverages",
-    url: "/chaitanya/product/20",
+    url: "/product/20",
   },
   {
     id: "021",
@@ -178,7 +178,7 @@ export const Data = [
     price: 440,
     discounted_price: 418,
     category: "haircare",
-    url: "/chaitanya/product/21",
+    url: "/product/21",
   },
   {
     id: "022",
@@ -187,7 +187,7 @@ export const Data = [
     price: 200,
     discounted_price: 170,
     category: "skincare",
-    url: "/chaitanya/product/22",
+    url: "/product/22",
   },
   {
     id: "023",
@@ -196,7 +196,7 @@ export const Data = [
     price: 400,
     discounted_price: 340,
     category: "laundary-dishwash",
-    url: "/chaitanya/product/23",
+    url: "/product/23",
   },
   {
     id: "024",
@@ -205,7 +205,7 @@ export const Data = [
     price: 400,
     discounted_price: 320,
     category: "hand-bodywash",
-    url: "/chaitanya/product/24",
+    url: "/product/24",
   },
   {
     id: "025",
@@ -214,6 +214,6 @@ export const Data = [
     price: 170,
     discounted_price: 153,
     category: "food-and-beverages",
-    url: "/chaitanya/product/25",
+    url: "/product/25",
   },
 ];

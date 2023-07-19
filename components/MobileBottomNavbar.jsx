@@ -5,9 +5,9 @@ import { useSelector } from "react-redux";
 const MobileBottomNavbar = (router) => {
   const navdata = [
     { id:"1" , img: "/home.png", text: "Home", url: "/chaitanya" },
-    { id:"2" , img: "/catagory.jpg", text: "Category", url: "/chaitanya/collection" },
-    { id:"3" , img: "/offer.png", text: "Offers", url: "/chaitanya/offers" },
-    { id:"4" , img: "/chaitanya/cart.png", text: "Cart", url: "/chaitanya/cart" },
+    { id:"2" , img: "/catagory.jpg", text: "Category", url: "/collection" },
+    { id:"3" , img: "/offer.png", text: "Offers", url: "/offers" },
+    { id:"4" , img: "/cart.png", text: "Cart", url: "/cart" },
   ];
 
   const result = useSelector((state) => state.cartData);

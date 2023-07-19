@@ -1,5 +1,5 @@
 import React from "react";
-import { Data } from "@/data/Chaitanya/Data";
+import { Data } from "@/data/Data";
 import { useState } from "react";
 import Link from "next/link";
 export default function Searchbar() {

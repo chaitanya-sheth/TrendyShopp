@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Data } from "@/data/Chaitanya/Data";
+import { Data } from "@/data/Data";
 import { HiOutlineShoppingBag ,HiMinus,HiPlus } from "react-icons/hi";
 import Link from "next/link";
 import {addToCart} from "@/redux/action";
@@ -82,7 +82,7 @@ const filteredBySliderImage = sliderImage.find((item) => item.text === category)
     <>
     {filteredBySliderImage && <img src={filteredBySliderImage.desktopImg} alt="Slider Image" style={{width:"100%"}} className="desktopSlider" />}
     {filteredBySliderImage && <div> <img src={filteredBySliderImage.mobileImg} alt="Slider Image" style={{width:"100%"}} className="mobileSlider" />
-    <Link href="/chaitanya/collection" className="browseMoreCategoryButton"><div className="customButtonOfBanner">
+    <Link href="/collection" className="browseMoreCategoryButton"><div className="customButtonOfBanner">
                         Browse More Categories
                     </div></Link>
                     </div>}

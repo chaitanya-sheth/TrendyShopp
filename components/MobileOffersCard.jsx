@@ -1,5 +1,5 @@
 import React from "react";
-import { Data } from "@/data/Chaitanya/Data";
+import { Data } from "@/data/Data";
 import { HiOutlineShoppingBag ,HiMinus,HiPlus } from "react-icons/hi";
 import Link from "next/link";
 import {addToCart} from "@/redux/action";

@@ -44,7 +44,7 @@ const Nav = () => {
           )}
       
           <div className="icons cartIcon">
-            <Link href="/chaitanya/cart"><BsCart size={25} style={{color:"black"}}/></Link>
+            <Link href="/cart"><BsCart size={25} style={{color:"black"}}/></Link>
             {result.length > 0 ? <span className="cartResult">{result.length}</span> : null}
           </div>
           <div className="profileIcon icons align_items_center justify_content_center">

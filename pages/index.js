@@ -1,8 +1,8 @@
-import Banner from "@/components/chaitanya/Banner";
-import MobileBanner from "@/components/chaitanya/MobileBanner";
-import MobileOffersCard from "@/components/chaitanya/MobileOffersCard";
-import RoundedIcons from "@/components/chaitanya/RoundedIcons";
-import DesktopOfferCards from "@/components/chaitanya/DesktopOfferCarsd";
+import Banner from "@/components/Banner";
+import MobileBanner from "@/components/MobileBanner";
+import MobileOffersCard from "@/components/MobileOffersCard";
+import RoundedIcons from "@/components/RoundedIcons";
+import DesktopOfferCards from "@/components/DesktopOfferCarsd";
 import { Provider } from 'react-redux'
 import store from '@/redux/store'
 

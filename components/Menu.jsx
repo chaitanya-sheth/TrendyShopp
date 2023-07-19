@@ -5,17 +5,17 @@ import { BsChevronDown } from "react-icons/bs";
 // import {BsPersonCircle} from 'react-icons/bs';
 const data = [
     { id: 1, name: "Home", url: "/chaitanya" },
-    { id: 2, name: "Categories", url:"/chaitanya/collection",subMenu: true },
-    { id: 3, name: "Offers & Combos", url: "/chaitanya/offers"},
+    { id: 2, name: "Categories", url:"/collection",subMenu: true },
+    { id: 3, name: "Offers & Combos", url: "/offers"},
     
 ];
 
 const subMenuData = [
-    { id: 1, name: "Hair Care" , url:"/chaitanya/collection/haircare"},
-    { id: 2, name: "Skin Care", url:"/chaitanya/collection/skincare"},
-    { id: 3, name: "Laundary & Dishwash", url:"/chaitanya/collection/laundary-dishwash"},
-    { id: 4, name: "Hand & Bodywash", url:"/chaitanya/collection/hand-bodywash"},
-    { id: 5, name: "Food Beverages", url:"/chaitanya/collection/food-and-beverages"},
+    { id: 1, name: "Hair Care" , url:"/collection/haircare"},
+    { id: 2, name: "Skin Care", url:"/collection/skincare"},
+    { id: 3, name: "Laundary & Dishwash", url:"/collection/laundary-dishwash"},
+    { id: 4, name: "Hand & Bodywash", url:"/collection/hand-bodywash"},
+    { id: 5, name: "Food Beverages", url:"/collection/food-and-beverages"},
 ];
 
 const Menu = ({ showCatMenu, setShowCatMenu }) => {

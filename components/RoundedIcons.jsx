@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const RoundedIcons = () => {
   const roundedIcon = [
-    { img: "hair_care.jpg", text: "Hair Care" , url:"/chaitanya/collection/haircare"},
-    { img: "skin_care.jpg", text: "Skin Care" ,url:"/chaitanya/collection/skincare"},
-    { img: "laundry_dishwash.jpg", text: "Laundary & Dishwash", url:"/chaitanya/collection/laundary-dishwash" },
-    { img: "hand_bodywash.jpg", text: "Hand & Bodywash" ,url:"/chaitanya/collection/hand-bodywash"},
-    { img: "food_beverages.jpg", text: "Food Beverages" ,url:"/chaitanya/collection/food-and-beverages"},
+    { img: "hair_care.jpg", text: "Hair Care" , url:"/collection/haircare"},
+    { img: "skin_care.jpg", text: "Skin Care" ,url:"/collection/skincare"},
+    { img: "laundry_dishwash.jpg", text: "Laundary & Dishwash", url:"/collection/laundary-dishwash" },
+    { img: "hand_bodywash.jpg", text: "Hand & Bodywash" ,url:"/collection/hand-bodywash"},
+    { img: "food_beverages.jpg", text: "Food Beverages" ,url:"/collection/food-and-beverages"},
   ];
   return (
     <div className="scrollbarHidden d_flex roundedIconsBox">
