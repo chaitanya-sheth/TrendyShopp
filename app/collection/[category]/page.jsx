@@ -86,7 +86,7 @@ const filteredBySliderImage = sliderImage.find((item) => item.text === category)
     <>
     {filteredBySliderImage && <img src={filteredBySliderImage.desktopImg} alt="Slider Image" style={{width:"100%"}} className="desktopSlider" />}
     {filteredBySliderImage && <div> <img src={filteredBySliderImage.mobileImg} alt="Slider Image" style={{width:"100%"}} className="mobileSlider" />
-    <Link href="/collection"><div className="customButtonOfBanner">
+    <Link href="/collection" className="browseMoreCategoryButton"><div className="customButtonOfBanner">
                         Browse More Categories
                     </div></Link>
                     </div>}

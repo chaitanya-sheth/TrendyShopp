@@ -319,10 +319,11 @@ li a {
     position: absolute;
     height: 100%;
     bottom: 0;
-    /* bottom: 43%; */
-    left: 0;
+    bottom: 43%;
+    /* left: 0; */
     width: 40px;
-    /* height: 40px; */
+    height: 40px;
+    border-radius: 50%;
     background-color: #00000040;
     z-index: 10;
     display: flex;
@@ -342,10 +343,11 @@ li a {
     position: absolute;
     right: 0;
     height: 100%;
-    bottom: 0;
-    /* bottom: 43%; */
+    /* bottom: 0; */
+    bottom: 43%;
     width: 40px;
-    /* height: 40px; */
+    height: 40px;
+    border-radius: 50%;
     background-color: #00000040;
     color: white;
     z-index: 10;
@@ -419,6 +421,7 @@ li a {
     /* width: 80%; */
     width: 95%;
     margin: auto;
+    padding: 30px 0;
   }
   .offerPage{
     width: 90%;
@@ -436,7 +439,7 @@ li a {
   }
   .desktopOfferCard4 {
     /* width: 250px; */
-    width: 290px;
+    width: 280px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     transition: 0.5s;
@@ -753,7 +756,7 @@ Category page cards
 
 @media(min-width:1024px){
   .categoryOfferCard4{
-    width: 290px !important;
+    width: 280px !important;
   }
 }
 
