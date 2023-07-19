@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 
 const MobileBottomNavbar = (router) => {
   const navdata = [
-    { id:"1" , img: "/home.png", text: "Home", url: "/chaitanya" },
+    { id:"1" , img: "/home.png", text: "Home", url: "/" },
     { id:"2" , img: "/catagory.jpg", text: "Category", url: "/collection" },
     { id:"3" , img: "/offer.png", text: "Offers", url: "/offers" },
     { id:"4" , img: "/cart.png", text: "Cart", url: "/cart" },
@@ -18,13 +18,13 @@ const MobileBottomNavbar = (router) => {
  
   return (
     <div className="mobilebottomnavbar ">
-      <div className="width_100 bottomnavbarflex justify_content_between">
+      <div className="width_100 bottomnavbarflex ">
         {navdata.map((item) => {
          
           return (
             <div
         
-              className={`bottomnavbarflex flex_col align_items_center justify_content_center ${activeItem === item.id ? "active" : ""}`}
+              className={`bottomnavbarflex bottomnavbarIcons flex_col align_items_center justify_content_center ${activeItem === item.id ? "active" : ""}`}
               onClick={() => handleClick(item.id)}
               
              

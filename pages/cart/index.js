@@ -26,7 +26,6 @@ const Cart = () => {
       );
 
       if (existingItem) {
-        // const eachItemPrice = item.price;
         existingItem.quantity += 1;
       } else {
         mergedItems.push({
@@ -55,13 +54,13 @@ const Cart = () => {
 
   const mergedCartData = mergeCartItems(cartData);
 
-  let totalAmount = mergedCartData.reduce((total, item) => {
-    if (item.discounted_price) {
-      return total + item.discounted_price;
-    } else {
-      return total + item.price;
-    }
-  }, 0);
+  // let totalAmount = mergedCartData.reduce((total, item) => {
+  //   if (item.discounted_price) {
+  //     return total + item.discounted_price;
+  //   } else {
+  //     return total + item.price;
+  //   }
+  // }, 0);
   const handleAddToBag = (item) => {
     console.log("hadle add to bag",item);
     dispatch(addToCart(item));

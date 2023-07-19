@@ -1,7 +1,6 @@
 export const Data = [
   {
     id: "001",
-    // img: card1.src,
     img:"/card1.jpg",
     name: "Tressemme Pro Protect Sulphate Free Shampoo 340ml",
     price: 500,

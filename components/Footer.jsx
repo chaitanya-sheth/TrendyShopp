@@ -14,7 +14,7 @@ const Footer = () => {
 
           
           <div className="leftSide">
-            {/* MENU START */}
+           
             <div className="d_flex menu">
               <div className="heading cursor_pointer">
                 get help
@@ -47,9 +47,9 @@ const Footer = () => {
                 Cookie Notice
               </div>
             </div>
-            {/* MENU END */}
+          
 
-            {/* MENU START */}
+         
             <div className="d_flex col menu">
               <div className="heading cursor_pointer">
                 My Account
@@ -71,11 +71,11 @@ const Footer = () => {
               </div>
             
             </div>
-            {/* MENU END */}
+           
           </div>
-          {/* NORMAL MENU END */}
+       
         </div>
-        {/* LEFT END */}
+       
 
 
         <div className="d_flex justify_content_center socialMediaIconBox">
@@ -102,12 +102,6 @@ const Footer = () => {
             <FaInstagram size={20} />
           </div>
         </div>
-        {/* <div className="d_flex justify_content_center text contactUs cursor_pointer">
-                <button className="contactUsButton">Contact Us</button>
-              </div> */}
-        {/* <div className="text cursor_pointer">
-                <button className="contactUsButton">Contact Us</button>
-              </div> */}
       </div>
       <div className="d_flex justify_content_between bottomPart">
         

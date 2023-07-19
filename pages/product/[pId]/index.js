@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Data } from "@/data/Data";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
 import { HiOutlineShoppingBag ,HiMinus,HiPlus } from "react-icons/hi";
 import {addToCart} from "@/redux/action";
@@ -35,7 +35,7 @@ const ProductId = ({params}) => {
   };
 
   const handleRemoveFromBag = (item) => {
-    dispatch(removeFromCart(item)); // Dispatching the removeFromCart action
+    dispatch(removeFromCart(item)); 
     setAddedProducts((prevAddedProducts) =>
       prevAddedProducts.filter((productId) => productId !== item.id)
     );

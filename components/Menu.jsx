@@ -1,10 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { BsChevronDown } from "react-icons/bs";
-// import { BsCart } from "react-icons/bs";
-// import {BsPersonCircle} from 'react-icons/bs';
 const data = [
-    { id: 1, name: "Home", url: "/chaitanya" },
+    { id: 1, name: "Home", url: "/" },
     { id: 2, name: "Categories", url:"/collection",subMenu: true },
     { id: 3, name: "Offers & Combos", url: "/offers"},
     

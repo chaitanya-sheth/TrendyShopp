@@ -37,11 +37,11 @@ const Category = ({ params }) => {
       items: 3,
     },
     4: {
-      breakpoint: { max: 767, min: 440 },
+      breakpoint: { max: 767, min: 490 },
       items: 2,
     },
     5: {
-      breakpoint: { max: 440, min: 320 },
+      breakpoint: { max: 490, min: 320 },
       items: 1,
     },
   };
@@ -53,7 +53,6 @@ const Category = ({ params }) => {
   
   const dispatch = useDispatch();
   const data = useSelector((state) => state.productData);
-  // console.warn("data in main component from saga ", data);
 
   useEffect(() => {
     dispatch(productList());
@@ -67,7 +66,7 @@ const Category = ({ params }) => {
   };
 
   const handleRemoveFromBag = (item) => {
-    dispatch(removeFromCart(item)); // Dispatching the removeFromCart action
+    dispatch(removeFromCart(item)); 
     setAddedProducts((prevAddedProducts) =>
       prevAddedProducts.filter((productId) => productId !== item.id)
     );

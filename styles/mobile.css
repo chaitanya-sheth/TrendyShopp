@@ -226,6 +226,9 @@
 .bottomnavbarflex {
   display: flex;
 }
+.bottomnavbarIcons{
+  padding: 0 7vw;
+}
 .bottomTagNames {
   color:black;
   font-size: 0.875rem /* 14px */;
@@ -247,7 +250,6 @@
 }
 .active{
   background-color: #0000ff42;
-  padding: 0 5px;
 }
 @media (min-width: 768px) {
   .mobilebottomnavbar {
@@ -442,7 +444,6 @@
 
 .roundedIconsBox{
   overflow: auto;
-  margin-top: 1.5rem/* 24px */;
 }
 
 .roundedIconDiv{
@@ -463,6 +464,9 @@
   .roundedIconImg{
     width: 50px;
     height: 50px;
+  }
+  .roundedIconsBox{
+    padding: 2rem 0.9rem;
   }
 }
 
@@ -723,9 +727,6 @@
 Category page cards
 ----------------------- */
 
-.categoryOfferCard3{
-  padding: 24px;
-}
 .categoryOfferCard4 {
   width: 250px;
   overflow: hidden;

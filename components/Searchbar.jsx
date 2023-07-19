@@ -6,7 +6,7 @@ export default function Searchbar() {
   const [query, setQuery] = useState();
   const handleItemClick = () => {
     query("");
-    setQuery(""); // Clear the search box
+    setQuery(""); 
   };
 
   return (

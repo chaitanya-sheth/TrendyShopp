@@ -11,5 +11,3 @@ export const productData = (data = [], action) => {
             return data
     }
 }
-
-// export default productData

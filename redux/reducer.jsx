@@ -29,4 +29,3 @@ export const cartData = (data = [], action) => {
   }
 };
 
-// export default cartData

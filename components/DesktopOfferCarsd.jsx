@@ -42,21 +42,21 @@ const DesktopOfferCards = ({ searchQuery }) => {
 
   const filteredData = Data.filter((item) => !item.discounted_price);
   
-  const [addedProducts, setAddedProducts] = useState([]);
+  // const [addedProducts, setAddedProducts] = useState([]);
 
   const handleAddToBag = (item) => {
     dispatch(addToCart(item));
-    setAddedProducts((prevAddedProducts) => [...prevAddedProducts, item.id]);
+    // setAddedProducts((prevAddedProducts) => [...prevAddedProducts, item.id]);
   };
 
   const handleRemoveFromBag = (item) => {
-    dispatch(removeFromCart(item)); // Dispatching the removeFromCart action
-    setAddedProducts((prevAddedProducts) =>
-      prevAddedProducts.filter((productId) => productId !== item.id)
-    );
+    dispatch(removeFromCart(item)); 
+    // setAddedProducts((prevAddedProducts) =>
+      // prevAddedProducts.filter((productId) => productId !== item.id)
+    // );
   };
 
-  const isProductAdded = (item) => addedProducts.includes(item.id);
+  // const isProductAdded = (item) => addedProducts.includes(item.id);
 
 
 
@@ -86,43 +86,7 @@ const DesktopOfferCards = ({ searchQuery }) => {
                           </span>
                         </div>
                      
-                        {/* {isProductAdded(item) ? (
-                          <div className="d_flex addToCartButton">
-                            <button
-                              className="d_flex justify_content_center align_items_center buttonEffect"
-                              onClick={() => handleRemoveFromBag(item.id)}
-                            >
-                              <div>
-                                <HiMinus />
-                              </div>
-                            </button>
-                            <button className="d_flex justify_content_center align_items_center buttonEffect">
-                              <div>
-                              <HiOutlineShoppingBag/>      
-                              </div>
-                           
-                            </button>
-                            <button
-                              className="d_flex justify_content_center align_items_center buttonEffect"
-                              onClick={() => handleAddToBag(item)}
-                            >
-                              <div>
-                                <HiPlus />
-                              </div>
-                            </button>
-                          </div>
-                        ) : (
-                          <div className="d_flex addToCartButton">
-                            <button
-                              className="d_flex justify_content_center align_items_center buttonEffect"
-                              onClick={() => handleAddToBag(item)}
-                            >
-                              <div>
-                                <HiOutlineShoppingBag />Add to bag 
-                              </div>
-                            </button>
-                          </div>
-                        )} */}
+                       
                         <div className="d_flex addToCartButton">
                             <button
                               className="d_flex justify_content_center align_items_center buttonEffect"

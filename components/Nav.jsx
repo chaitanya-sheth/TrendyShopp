@@ -8,7 +8,6 @@ import { BsCart } from "react-icons/bs";
 import { BsPersonCircle } from "react-icons/bs";
 import Searchbar from "./Searchbar";
 import { useSelector } from "react-redux";
-// import { cartData } from "@/redux/reducer";
 
 
 const Nav = () => {
@@ -16,7 +15,7 @@ const Nav = () => {
   const [showCatMenu, setShowCatMenu] = useState(false);
 
   const result = useSelector((state)=>state.cartData);
-  console.warn("data in header", result[0]);
+  // console.warn("data in header", result[0]);
 
   return (
     <div className="mainNav d_flex align_items_center width_100">

@@ -77,12 +77,6 @@ li a {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.nav {
-  /* padding-right: 10px;
-  padding-top: 0px;
-  max-width: 1280px; */
-}
-
 @media (min-width: 768px) {
   .mainNav {
     justify-content: space-between;
@@ -90,13 +84,8 @@ li a {
   .drawerIcon {
     display: none !important;
   }
-  /* .searchIcon{
-    display: none !important;
-  } */
+
   .nav {
-    /* margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between; */
     padding: 0 15px;
   }
 }
@@ -108,7 +97,6 @@ li a {
   font-size: 20px;
 }
 .logoBox{
-  /* width: 20vw; */
   width: 5vw;
 }
 .logo {
@@ -139,6 +127,7 @@ li a {
   border-radius: 50%;
   color: white;
 }
+
 /* Seachbar.jsx */
 .mainSearchbar{
   display: flex;
@@ -153,12 +142,6 @@ li a {
 }
 
 .searchbar2 {
-  /* height: 74px; */
-  /* max-width: 24rem 384px; */
-  /* padding-left: 1rem16px; */
-  /* padding-right: 1rem ; */
-  /* margin: 10px 0; */
-  /* background-color: rgba(255, 255, 255, 0.771); */
   margin-top: 1.2vh;
   background-color: white !important;
 }
@@ -332,18 +315,16 @@ li a {
     cursor: pointer;
     opacity: 0.9;
     color: white;
-    /* border-bottom-right-radius:10px;
-    border-top-right-radius: 10px; */
   }
   .carouselArrow2 {
     font-size: 16px;
     line-height: 18px;
+    transform: rotate(180deg);
   }
   .carouselArrow3 {
     position: absolute;
     right: 0;
     height: 100%;
-    /* bottom: 0; */
     bottom: 43%;
     width: 40px;
     height: 40px;
@@ -357,8 +338,7 @@ li a {
     cursor: pointer;
   }
   .carouselArrow4 {
-    transform: rotate(180deg);
-    font-size: 14px; /* Assumes 'text-sm' is 14px, adjust as needed */
+    font-size: 14px; 
   }
   @media (max-width: 767px) {
     .desktopbanner {
@@ -398,8 +378,7 @@ li a {
 @media (min-width: 769px) {
   .roundedIconsBox {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 2rem;
   }   
   .roundedIconImg{
     width: 70px;
@@ -412,13 +391,11 @@ li a {
   -------------------------------*/
   .desktopOfferCard {
     background-color: #F2E3DB;
-    margin-top: 10px;
   }
   .offerCardPage{
     background-color: #F2E3DB;
   }
   .desktopOfferCard1 {
-    /* width: 80%; */
     width: 95%;
     margin: auto;
     padding: 30px 0;
@@ -429,6 +406,7 @@ li a {
   }
 
   .desktopOfferCard2 {
+    padding: 30px 15px;
     font-size: 30px;
     font-weight: 600;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -438,7 +416,6 @@ li a {
     padding: 24px 10px;
   }
   .desktopOfferCard4 {
-    /* width: 250px; */
     width: 280px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
@@ -512,7 +489,6 @@ li a {
   background-color: rgb(31, 54, 199);
   color: white;
   text-align: center;
-  /* border-radius: 10px; */
   padding: 8px 20px;
   border: none;
 }
@@ -620,7 +596,6 @@ li a {
     min-width: 48%;
     max-width: 50%;
     padding-top: 20px;
-    /* display: flex; */
   }
   .productdetailpage{
     display: flex;
@@ -717,7 +692,6 @@ Category page cards
   letter-spacing: 0em;
   font-weight: 700;
   margin-left: 15px;
-  /* text-decoration: line-through;   */
 }
 .line-through{
   text-decoration-line: line-through;
@@ -740,7 +714,6 @@ Category page cards
   background-color: rgb(31, 54, 199);
   color: white;
   text-align: center;
-  /* border-radius: 10px; */
   padding: 8px 20px;
   border: none;
 }
@@ -784,7 +757,6 @@ Category page cards
 
 .emptyCartButton{
   cursor: pointer;
-  /* width: 90px; */
   border: none;
   margin-bottom: 40px;
   background-color: white;

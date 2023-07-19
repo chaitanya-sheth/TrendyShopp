@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const RoundedIcons = () => {
   const roundedIcon = [
-    { img: "hair_care.jpg", text: "Hair Care" , url:"/collection/haircare"},
-    { img: "skin_care.jpg", text: "Skin Care" ,url:"/collection/skincare"},
+    { img: "hair_care.jpg", text: "Hair Care Products" , url:"/collection/haircare"},
+    { img: "skin_care.jpg", text: "Skin Care Products" ,url:"/collection/skincare"},
     { img: "laundry_dishwash.jpg", text: "Laundary & Dishwash", url:"/collection/laundary-dishwash" },
     { img: "hand_bodywash.jpg", text: "Hand & Bodywash" ,url:"/collection/hand-bodywash"},
     { img: "food_beverages.jpg", text: "Food Beverages" ,url:"/collection/food-and-beverages"},

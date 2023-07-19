@@ -1,7 +1,8 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
 import { BiArrowBack } from "react-icons/bi";
+import {IoIosArrowForward} from 'react-icons/io'
 import Link from "next/link";
 const Banner = () => {
   const images = [
@@ -24,7 +25,7 @@ const Banner = () => {
                         onClick={clickHandler}
                         className="carouselArrow absolute right-[31px] md:right-[51px] bottom-0 w-[30px] md:w-[50px] h-[30px] md:h-[50px] bg-black z-10 flex items-center justify-center cursor-pointer hover:opacity-90"
                     >
-                        <BiArrowBack className="carouselArrow2" />
+                        <IoIosArrowForward className="carouselArrow2" />
                     </div>
                 )}
                 renderArrowNext={(clickHandler, hasNext) => (
@@ -32,7 +33,7 @@ const Banner = () => {
                         onClick={clickHandler}
                         className="carouselArrow3"
                     >
-                        <BiArrowBack className="carouselArrow4" />
+                        <IoIosArrowForward className="carouselArrow4" />
                     </div>)}
     >
       {images.map((item) => {
